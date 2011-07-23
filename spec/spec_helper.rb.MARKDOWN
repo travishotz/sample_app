@@ -43,7 +43,3 @@ RSpec.configure do |config|
   # railties/lib/rail/application/bootstrap.rb
   ActiveSupport::Dependencies.clear
 end
-end
-
-Spork.each_run do
-end
