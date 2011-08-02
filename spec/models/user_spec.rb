@@ -141,7 +141,8 @@ describe User do
       end
       
       it "should return nil on email/password mismatch" do
-        User.authenticate(@attr[:email], "wrongpass").should be_nil
+        mismatch_user = User.authenticate(@attr[:email], "wrongpass")
+        mismatch_user.should be_nil
       end
       
       it "should return nil for an email address with no user" do

@@ -20,6 +20,7 @@ group :test do
 	gem 'autotest-fsevent'
 	gem 'autotest-growl'
 	gem 'spork'
+	gem 'factory_girl_rails'
 end
 
 # Use unicorn as the web server
