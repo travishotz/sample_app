@@ -37,7 +37,8 @@ class User < ActiveRecord::Base
       return user if user.has_password?(submitted_password)
     end
   end
-  
+
+
   private
   
     def encrypt_password
@@ -57,16 +58,3 @@ class User < ActiveRecord::Base
       Digest::SHA2.hexdigest(string)
     end
 end
-
-# == Schema Information
-#
-# Table name: users
-#
-#  id                 :integer         not null, primary key
-#  name               :string(255)
-#  email              :string(255)
-#  created_at         :datetime
-#  updated_at         :datetime
-#  encrypted_password :string(255)
-#
-
