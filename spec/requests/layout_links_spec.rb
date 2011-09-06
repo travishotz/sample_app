@@ -22,10 +22,16 @@ describe "LayoutLinks" do
       response.should have_selector('title', :content => "Help")
     end
       
-    it "should have a signup page at 'signup'" do
+    it "should have a signup page at '/signup'" do
       get '/signup'
       response.should have_selector('title', :content => "Sign up")
     end
+    
+    it "should have a signin page at '/signin" do
+      get '/signin'
+      response.should have_selector('title', :content => "Sign in")
+    end
+   
     
     it "should have the right links on the layout" do
       visit root_path
@@ -39,5 +45,32 @@ describe "LayoutLinks" do
       response.should have_selector('title', :content => "Home")
       click_link "Sign up now!"
       response.should have_selector('title', :content => "Sign up")
+    end
+    
+    describe "when not signed in" do
+
+      it "should have a signin link" do
+        visit root_path
+        response.should have_selector("a", :href => signin_path, :content => "Sign In")
+
+      end 
+    end
+
+    describe "when signed in" do
+      
+      before(:each) do
+        @user = Factory(:user)
+        integration_sign_in(@user)
+      end
+      
+      it "should have a signout link" do
+        visit root_path
+        response.should have_selector("a", :href => signout_path, :content => "Sign Out")
+      end
+      
+      it "should have a profile link" do
+        visit root_path
+        response.should have_selector("a", :href =>  user_path(@user), :content => "Profile")
+      end
     end
 end

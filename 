@@ -1,0 +1,125 @@
+commit e904fe2aab077d80ece189c0f4c253fb75e35313
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Thu Aug 4 04:11:54 2011 -0700
+
+    Added a sign up sheet
+
+commit 22510cbd69f209fd815ab511a6f6b4acdfea7685
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Wed Aug 3 20:46:48 2011 -0700
+
+    Finished user signup
+
+commit c476e2b2123eec07a8e41e0da2e8ee461f54c582
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Wed Aug 3 01:33:39 2011 -0700
+
+    Startign Sign Up page
+
+commit 363eee2122e48d9814355965816594dd8d46a36e
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Tue Aug 2 06:37:56 2011 -0700
+
+    updated rakefile
+
+commit cc182aaf21a170ec753eae77a9a898988ae074ec
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Tue Aug 2 06:12:16 2011 -0700
+
+    Added a sidebar and some styling
+
+commit 5c4e1246b4d653e9b954cf79ce1f67215b0ffd33
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Tue Aug 2 05:39:00 2011 -0700
+
+    Improved the user show page and added a Gravatar
+
+commit d121c068b496120ad71137a29cf0816182b8722f
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Tue Aug 2 03:12:10 2011 -0700
+
+    Added factories and a test for the show page
+
+commit e2067686ba70997694409df1e7ec5eddc1ea0236
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Mon Aug 1 19:45:22 2011 -0700
+
+    Finished the password machine
+
+commit bdc96c5763fa24b1b53f2d1af2270cedcff1eb3b
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Mon Aug 1 19:36:55 2011 -0700
+
+    Finished the password machinery
+
+commit 7aa672426cff64c6dd902765f80578abb913d871
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Mon Jul 25 18:14:54 2011 -0700
+
+    Exercises Chapter 5 completed
+
+commit f643545b3d8b5b38eb9bd630da44aa201f427f3e
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Mon Jul 25 17:50:06 2011 -0700
+
+    Finished layout and routes
+
+commit a1e6b6c44f6986fe0e4005b878f64a7ee059b778
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Mon Jul 25 16:15:09 2011 -0700
+
+    Removed default Rails page
+
+commit a63d4695bf92e6a1b54920dff97637ad970e0eb6
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Sat Jul 23 04:39:54 2011 -0700
+
+    Exercise chap 3 complete
+
+commit 895f4481d6ce7c16b9ae647b5fe533c2a90ca7a8
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Sat Jul 23 04:30:16 2011 -0700
+
+    Final static works
+
+commit dd1f142c0f301328dff55af4b02676d2abf6ceeb
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Sat Jul 23 03:57:40 2011 -0700
+
+    Done with static pages
+
+commit d55ffd3f239da712182fcb299de6ce2dd66e110c
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Fri Jul 22 18:47:38 2011 -0700
+
+    Aded About html
+
+commit a59358bd47468b447d45e4a6d3f4bc20f65ffd74
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Fri Jul 22 14:34:59 2011 -0700
+
+    Autotest Running 2
+
+commit d721ff12c27b7cc3831764cb5a15d0bdb87d41d8
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Fri Jul 22 14:34:10 2011 -0700
+
+    Autotest Running
+
+commit 17eb4f3bd0d3fd8ffef718618693839e293a4877
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Fri Jul 22 14:27:22 2011 -0700
+
+    Added a Pages controller
+
+commit 20d9ba65a7827743bcf167fad9c8f4db1b8b85eb
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Fri Jul 22 14:18:55 2011 -0700
+
+    Improved the README
+
+commit b327c350afae04b5099b74e6aeaefd82f7b97aaf
+Author: Travis Hotz <travishotz@gmail.com>
+Date:   Fri Jul 22 14:17:09 2011 -0700
+
+    Initial commit
